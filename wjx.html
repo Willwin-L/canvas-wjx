@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>五角星</title>
+	<style>
+        #canvas{
+            border:2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+	<canvas id="canvas" width="600" height="600"></canvas>
+
+	 <script>
+        var can = document.getElementById('canvas');
+        
+        var con = can.getContext('2d');
+        //变换中心点的位置
+        con.translate(can.width/2,can.height/2);
+        //设置线条的粗细
+        con.lineWidth = 2;
+        con.strokeStyle = 'red';
+
+        con.beginPath();
+        con.moveTo(100,0);
+        con.lineTo(100,0);
+
+        //矩形
+        // con.rotate(0.5*Math.PI);
+        // con.lineTo(100,0);
+        // con.stroke()
+
+        // con.rotate(0.5*Math.PI);
+        // con.lineTo(100,0);
+        // con.stroke()
+
+        // con.rotate(0.5*Math.PI);
+        // con.lineTo(100,0);
+        // con.stroke()
+
+        // con.rotate(0.5*Math.PI);
+        // con.lineTo(100,0);
+        // con.stroke()
+
+        //三角形
+
+       // con.rotate(240/360*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(240/360*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(240/360*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+
+       //五边形
+       // con.rotate(2/5*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/5*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/5*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/5*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/5*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+
+       //六边形
+       //  con.rotate(2/6*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/6*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/6*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/6*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/6*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke()
+       
+       // con.rotate(2/6*Math.PI);
+       // con.lineTo(100,0);
+       // con.stroke();
+
+       //五角星
+        con.rotate(4/5*Math.PI);
+        con.lineTo(100,0);
+        con.stroke();
+        
+        con.rotate(4/5*Math.PI);
+        con.lineTo(100,0);
+        con.stroke();
+        
+        con.rotate(4/5*Math.PI);
+        con.lineTo(100,0);
+        con.stroke();
+        
+        con.rotate(4/5*Math.PI);
+        con.lineTo(100,0);
+        con.stroke();
+        
+        con.rotate(4/5*Math.PI);
+        con.lineTo(100,0);
+        con.stroke();
+        
+     </script>
+</body>
+</html>
